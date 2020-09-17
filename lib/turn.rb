@@ -8,14 +8,14 @@ end
 
 def input_to_index(input)
   input.to_i = x
-  index = x-1 
+  index = x-1
 end
 
 def valid_move?(board, index)
   def position_taken?(board, index)
     if board[index] == ""| board[index] == " " | board[index] == nil
       return false
-    else 
+    else
       return true
     end
   end
